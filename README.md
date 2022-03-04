@@ -26,6 +26,8 @@ https://new-vote-app.herokuapp.com/vote-api/
 
 The challenge is to develop an application that supports the volume of hundreds of thousands of simultaneous requests and remains stable. The solution discussed involves the asynchronous processing of polls and their votes, so that the number of server threads DOES NOT SCALE with the increase in requests. This is the great differential of the solution.
 
+For api versioning, it is suggested to use the Swagger library, adopting the strategy with the least impact on clients: URI path.
+
 
 ### Setup
 * Java JDK 11 
