@@ -28,6 +28,7 @@ The challenge is to develop an application that supports the volume of hundreds 
 * Execute maven build and run java application into target folder with 'java -jar'  
 
 ### Results performance tests
+As shown in the images below, the application remained completely stable even with the volume of hundreds of thousands of simultaneous requests, despite the localhost being a notebook with 8gb of ram and an i5 processor sharing all the application processes, database, monitoring tool , and OS applications
 * Before init tests:
 
 ![alt text](https://i.ibb.co/9g7vZQD/Captura-de-Tela-20220303124309.png)
