@@ -11,6 +11,11 @@ An additional external CPF validation was requested at the time of adding a vote
 The API documentation can be found at:
 https://new-vote-app.herokuapp.com/vote-api/swagger-ui.html#/
 
+
+The api endpoints root:
+https://new-vote-app.herokuapp.com/vote-api/
+
+
 ### Project architecture:
 * Spring boot for Java 11 API
 * Postgresql as database
